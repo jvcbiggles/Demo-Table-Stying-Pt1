@@ -1,0 +1,80 @@
+
+body {
+background-color:#999999;
+}
+
+.container {
+background-color:#CCCCCC;
+height:500px;
+width:500px;
+position:relative;
+float:none;
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+
+
+.mytable {
+position:absolute;
+top:100px;
+left:100px;
+width:300px;
+border-spacing:0px 0px;
+border-left:solid 1px #000000;
+border-bottom:solid 1px #000000;
+}
+
+.mytable th, td {
+border-top:solid 1px #000000;
+border-right:solid 1px #000000;
+text-align:center;
+height:30px;
+}
+
+.mytable th{
+background-color:#CCCCCC;
+}
+
+.mytable tr:nth-child(odd){
+background-color:#DDDDDD;
+}
+
+.mytable tr:nth-child(even) {
+	background-color:#FFFFFF;
+}
+
+
+/* CSS classes to add using Lucid / Jquery */
+
+tr.even-row td {
+background-color:#589DFE;
+}
+
+tr.odd-row td {
+background-color:#E3B16F;
+}
+
+tr.over td {
+background-color:#B9D9FC;
+opacity:1;
+}
+
+.blur {
+opacity:0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
